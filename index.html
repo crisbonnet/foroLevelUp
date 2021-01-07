@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+
+<html lang="es" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>LevelUp</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/micss.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500;600&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+
+<!--///////////////////////////- NAV BAR ///////////////////------>
+
+<body>
+  <header>
+    <img src="img/logoLU.png" width="180" class="izquierda">
+    <ul>
+      <li class="menu">Juegos</li>
+      <li class="menu">Noticias</li>
+      <li class="menu">Artículos</li>
+      <li class="menu">TV</li>
+      <li class="menu">Foros </li>
+    </ul>
+    <img id="perfil" src="img/perfil.png" width="35" class="derecha">
+    <img class="separador-corto"src="img/separador corto.png">
+  </header>
+
+
+  <!--///////////////////////////- ROW -  INTRO -   1/12 -    ///////////////////------>
+
+  <section class="intro margen">
+    <h2>Foros</h2>
+    <div class="col-1cuarto">
+      <button type="button" name="btn-tema" class="boton">Crear nuevo tema</button>
+    </div>
+
+
+    <div class="col-2cuartos">
+      <div class="busqueda">
+        <h3 id="buscar">Buscar</h3>
+        <div class="busqueda-caja ">
+          <form class="busqueda-formulario" action="#">
+            <div class="busqueda-input-caja">
+              <input class="busqueda-input" type="search" placeholder="Escribe tu búsqueda">
+            </div>
+            <input class="busqueda-lupa" type="submit" value="&#8981;" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-1cuarto">
+      <button type="button" name="btn-tema" class="boton"> Responder este tema</button>
+    </div>
+  </section>
+
+
+  <!--///////////////////////////- ROW 1/3      ///////////////////------>
+
+
+  <section class="intro margen">
+    <div class=" col-1cuarto">
+      <div class="marco-Col">
+        <h3>Salas</h3>
+
+        <div class="salas-de-foro">
+          <ul>
+            <li>
+              <img class="globos" src="img/globos dialogo.png" alt="dibujo de dos globos de dialogo">
+              <a class="lista-salas" href="#">Discusión general</a>
+            </li>
+
+            <li><img class="globos" src="img/globos dialogo.png" alt="dibujo de dos globos de dialogo">
+              <a class="lista-salas" href="#">Xbox</a></li>
+
+            <li><img class="globos" src="img/globos dialogo.png" alt="dibujo de dos globos de dialogo">
+              <a class="lista-salas" href="#">PlayStation</a></li>
+
+            <li><img class="globos" src="img/globos dialogo.png" alt="dibujo de dos globos de dialogo">
+              <a class="lista-salas" href="#">Nintendo</a></li>
+
+            <li><img class="globos" src="img/globos dialogo.png" alt="dibujo de dos globos de dialogo">
+              <a class="lista-salas" href="#">PC Gaming</a></li>
+
+            <li><img class="globos" src="img/globos dialogo.png" alt="dibujo de dos globos de dialogo">
+              <a class="lista-salas" href="#">Móvil</a></li>
+
+            <li><img class="globos" src="img/globos dialogo.png" alt="dibujo de dos globos de dialogo">
+              <a class="lista-salas" href="#">Hardware y Software</a></li>
+
+            <li><img class="globos" src="img/globos dialogo.png" alt="dibujo de dos globos de dialogo">
+              <a class="lista-salas" href="#">Reportar error</a></li>
+          </ul>
+        </div>
+
+        <!--//////  MENU DESPLEGABLE LATERAL ////------>
+        <div class="ver-mas">
+          <nav class="menu-vermas">
+            <ul>
+              <li><a class="negrita" href="#">Ver más</a>
+                <ul>
+                  <li><a href="#">Off topic y humor</a></li>
+                  <li><a href="#">Steam</a></li>
+                  <li><a href="#">Retrogaming</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <hr id="colorHR" width="90%">
+
+        <!--//////  TAGS NUBE  LATERAL ////------>
+        <div class="seccion-tags">
+
+          <h3>Tags</h3>
+          <br><br>
+          <ul id="margen">
+            <li class="lista-tags-align-fila1"><a class="lista-tags lista-tags-nivel5" href="#">Recomendación</a></li>
+
+            <li class="lista-tags-align-fila2 "> <a class="lista-tags lista-tags-nivel5" href="#">Ayuda</a>
+              <a class="lista-tags lista-tags-nivel3" href="#">Hardware</a></li>
+
+            <li class="lista-tags-align-fila3 "><a class="lista-tags lista-tags-nivel7" href="#">Microsoft</a>
+              <a class="lista-tags lista-tags-nivel4" href="#">COVID-19</a>
+              <a class="lista-tags lista-tags-nivel7" href="#">Busco grupo</a></li>
+
+            <li class="lista-tags-align-fila4 "><a class="lista-tags lista-tags-nivel6" href="#">Placa de video</a>
+              <a class="lista-tags lista-tags-nivel2" href="#">Nintendo</a></li>
+
+            <li class="lista-tags-align-fila5 "><a class="lista-tags lista-tags-nivel3" href="#">Software</a>
+              <a class="lista-tags lista-tags-nivel5" href="#">Retro</a>
+              <a class="lista-tags lista-tags-nivel6" href="#">Moderador</a></li>
+
+            <li class="lista-tags-align-fila6 "><a class="lista-tags lista-tags-nivel1" href="#">PlayStation</a>
+              <a class="lista-tags lista-tags-nivel5" href="#">PSP</a></li>
+
+            <li class="lista-tags-align-fila7 "><a class="lista-tags lista-tags-nivel2" href="#">Xbox</a>
+              <a class="lista-tags lista-tags-nivel6" href="#">Atari</a>
+              <a class="lista-tags lista-tags-nivel3" href="#">Configuración</a></li>
+
+            <li class="lista-tags-align-fila8 "><a class="lista-tags lista-tags-nivel5" href="#">ESport</a>
+              <a class="lista-tags lista-tags-nivel3" href="#">PC</a>
+              <a class="lista-tags lista-tags-nivel7" href="#">Reporte de error</a>
+              <a class="lista-tags lista-tags-nivel5" href="#">Nvidia</a></li>
+
+            <li class="lista-tags-align-fila9 "><a class="lista-tags lista-tags-nivel5" href="#">Consolas</a>
+              <a class="lista-tags lista-tags-nivel6" href="#">Qué hay de nuevo</a></li>
+
+            <li class="lista-tags-align-fila10 "><a class="lista-tags lista-tags-nivel3" href="#">LOL</a>
+              <a class="lista-tags lista-tags-nivel4" href="#">Comunidad</a>
+              <a class="lista-tags lista-tags-nivel5" href="#">Steam</a></li>
+          </ul>
+<br>
+          Anime
+
+        </div>
+        <br>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <!--///////////////////////////CONTENEDOR USUARIOS     ///////////////////------>
+    <!-- Contenedor Principal -->
+
+
+    <div class="comments-container">
+
+      <ul id="comments-list" class="comments-list">
+        <div class=" col-3cuartos">
+        <li>
+          <div class="comment-main-level">
+            <!-- Avatar -->
+            <div class="comment-avatar"><img src="img/avataruno.png" alt=""><p class="rango">Veterano</p></div>
+            <!-- Contenedor del Comentario -->
+
+
+            <div class="comment-box">
+              <div class="comment-head">
+                <h2 class="titulo-hilo">Game Pass Recomendaciones</h2>
+                <h6 class="comment-name by-author"><a href="http://.....">Wellphor</a></h6>
+                <img class="comment-reloj" src="img/reloj.png" width="15">
+                <span class="sangria3">hace 5 horas</span>
+
+                  <P class="cant-respuestas">4 respuestas</P>
+
+                <div class="position"> Reportar mensaje</div>
+                <div id="rectangulo">
+                    <p class="contenido-tag">Xbox</p>
+                  </div>
+                  <div id="rectangulo2">
+                    <p class="contenido-tag">Recomendación
+                    <p>
+                  </div>
+                  <div id="rectangulo3">
+                    <p class="contenido-tag">Password</p>
+                  </div>
+
+              </div>
+              <div class="comment-content">
+                <p class="sangria4"> Amigos en este espacio, pueden recomendar los juegos de Game Pass que más les guste ya sea en
+                  consola o PC, para que todos conozcamos nuevas joyas escondidas, revivamos grandes
+                  clásicos o probe mos juegos que normalmente no compraríamos</p>
+
+
+                  <!--boton para votar 1-->
+                  <br><br>
+               <div class="circulo">
+                    <div class="triangulo2" id="suma" href="#">
+                    </div>
+                    <p class="centrarlo"><label id="display">0</label></p>
+                    <div class="triangulo1" id="resta" href="#"></div>
+                  </div>
+                  <!--boton para votar -->
+
+                  <div  class="comments-globo-chat">
+                    <img class="globo-chat" src="img/globo-chat.png" width="28px">
+                    <p class="acomodar"> Responder</p>
+                  </div>
+
+
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Respuestas de los comentarios -->
+          <br>
+          <hr id="separador-de-comentarios" color="grey" size=1 width="43%">
+          <ul class="comments-list reply-list">
+            <li>
+              <!-- Avatar -->
+              <div class="comment-avatar"><img src="img/avatardos.png" alt=""><p class="rango">Aprendíz</p></div>
+              <!-- Contenedor del Comentario -->
+              <div class="comment-box">
+                <div class="comment-head">
+                  <h6 class="comment-name"><a href="http://....">GinnerX</a></h6>
+                  <img class="comment-reloj" src="img/reloj.png" width="15">
+                  <span class="sangria3">hace 3 horas</span>
+                  <div class="position"> Reportar mensaje</div>
+                </div>
+                <div class="comment-content">
+                  <p class="sangria"> Sin duda Devil May Cry 5 sería mi primera recomendación, excelente juego para los que
+                    somos fans de la saga.</p>
+
+
+                    <!--boton para votar 2-->
+                    <div class="circulo">
+                      <div class="triangulo2" id="suma1" href="#">
+                      </div>
+                      <p class="centrarlo"><label id="display1">4</label></p>
+                      <div class="triangulo1" id="resta1" href="#"></div>
+                    </div>
+                    <!--boton para votar -->
+                    <div  class="comments-globo-chat">
+                      <img class="globo-chat" src="img/globo-chat.png" width="28px">
+                      <p class="acomodar"> Responder</p>
+                    </div>
+                </div>
+
+              </div>
+
+            </li>
+
+            <hr id="separador-de-comentarios" color="grey" size=1 width="43%">
+            <br>
+            <li>
+
+              <!-- Avatar -->
+              <div class="comment-avatar"><img src="img/avatarcuatro.png" alt=""><p class="rango">Veterano</p></div>
+              <!-- Contenedor del Comentario -->
+
+              <div class="comment-box">
+                <div class="comment-head">
+                  <h6 class="comment-name"><a href="http://....">DeathSha</a></h6>
+                  <img class="comment-reloj" src="img/reloj.png" width="15">
+                  <span class="sangria3">hace 1 hora</span>
+                  <div class="position"> Reportar mensaje</div>
+
+                </div>
+                <div class="comment-content">
+                  <p class="sangria"> La mayoria de los AAA que están en el servicio, pero considerando que ya esta por salir el
+                    30 de este mes échate el Metro Exodus, es una autentica joya de principio a fin yo le estoy
+                    sacando todos los logros antes de que lo quiten.
+
+                    En cuanto a los demás ¿Qué gustos tienes? que hay desde juegos de disparos y carreras
+                    hasta hack and slash y JRPG´s.</p>
+
+                    <!--boton para votar 3-->
+                    <div class="circulo">
+                      <div class="triangulo2" id="suma2" href="#">
+                      </div>
+                      <p class="centrarlo"><label id="display2">2</label></p>
+                      <div class="triangulo1" id="resta2" href="#"></div>
+                    </div>
+                    <!--boton para votar -->
+
+                    <div  class="comments-globo-chat">
+                      <img class="globo-chat" src="img/globo-chat.png" width="28px">
+                      <p class="acomodar"> Responder</p>
+                    </div>
+                </div>
+              </div>
+            </li>
+            <hr id="separador-de-comentarios" color="grey" size=1 width="43%">
+          </ul>
+        </li>
+
+        <li>
+          <!-- Contenedor del Comentario -->
+          <div class="comment-box ">
+
+            <div class="comment-content respuesta-cita">
+              <br>
+              <p class="sangria"><b><i>DeathSha dijo</i></b></p>
+              <p class="sangria cita"> La mayoria de los AAA que están en el servicio, pero considerando que ya esta por salir el
+                30 de este mes échate el Metro Exodus, es una autentica joya de principio a fin yo le estoy
+                sacando todos los logros antes de que lo quiten.
+                En cuanto a los demás ¿Qué gustos tienes? que hay desde juegos de disparos y carreras
+                hasta hack and slash y JRPG´s.</p>
+              <hr id="separador-de-cita" width=28% align="right" size=1 color="#0f88bd">
+            </div>
+          </div>
+
+
+        <div class="comment-main-level respuesta-cita">
+          <!-- Avatar -->
+          <div class="comment-avatar Turokime"><img src="img/avatartres.png" alt=""><p class="rango">Veterano</p>
+          </div>
+          <!-- Contenedor del Comentario -->
+
+          <div class="comment-box">
+            <div class="comment-head">
+
+              <h6 class="comment-name"><a href="http://....">Turokime</a></h6>
+              <img class="comment-reloj2" src="img/reloj.png" width="15">
+              <span class="sangria3">hace 10 minutos</span>
+              <div class="position2"> Reportar mensaje</div>
+
+            </div>
+            <div class="comment-content">
+              <p class="sangria2"> For The King es un buen juego. Si te gustan los juegos por turno, con
+                una mezcla de tablero, es perfecto. Se puede jugar local y online. Ayer estuve
+                jugando The Messenger, un juego recomendado también: plataformas con un
+                toque de humor y una progresión adecuada.</p>
+
+                <!--boton para votar 4-->
+                <div class="circulo ultimo">
+                  <div class="triangulo2" id="suma3" href="#">
+                  </div>
+                  <p class="centrarlo"><label id="display3">0</label></p>
+                  <div class="triangulo1" id="resta3" href="#"></div>
+                </div>
+                <!--boton para votar -->
+                <div  class="comments-globo-chat1">
+                  <img  src="img/globo-chat.png" width="28px" align="left">
+                  <p class="acomodar"> Responder</p></div>
+            </div>
+          </div>
+        </div>
+        </li>
+      </ul>
+
+      <section >
+        <div class="comentario-row">
+
+
+        <hr id="separador-de-comentarios" color="grey" size=1 width="39%">
+        <h4 class="comentario-titulo">Deja tu comentario</h4>
+
+        <img class="comentario-perfil" src="img/perfil.png" alt="">
+        <form id="comentarios-caja">
+          <textarea class="comentario campo" placeholder="Escribe tu respuesta..."></textarea>
+          <button id="publicar" class="boton-publicar" required class="campo">Publicar</button>
+          <!-- Evita que se actualice la página-->
+          <input hidden required>
+          <!-- Evita que se actualice la página-->
+        </form>
+          </div>
+
+</div>
+<br>
+
+        <div class="gracias">
+          <article class="gracias-caja">
+            <p class="gracias-txt">Gracias por tu comentario!</p>
+            <p class="gracias-txt">Cuando otros usuarios lo califiquen</p>
+            <p class="gracias-txt">sumarás puntos para subir de rango.</p>
+            <br>
+            <button class="gracias-boton" id="cerrar">Aceptar</button>
+          </section>
+          </article>
+      </div>
+</div>
+  </main>
+
+  <footer>
+    <div class="margen">
+    <a href="https://www.youtube.com/channel/UChXHOzuSXAGZSDEWHOEk84g" target=blank><img src="img/Y.png" width="45" class="espacioredes"></a>
+    <a href="https://twitter.com/levelupcom" target=blank><img src="img/T.png" width="45" class="espacioredes"></a>
+    <a href="https://www.facebook.com/LevelUPcom" target=blank><img src="img/F.png" width="45" class="espacioredes"></a>
+    <img src="img/C.png" width="45" class="espaciocampana">
+    <img src="img/barra.png" >
+
+    <img src="img/logoLU.png" width="120" class="espacioredes">
+    <br>
+    <p class="textofooteriz"><a class="a-footer" href="">Anúnciate</a> | <a class="a-footer" href="">Contacto</a> | <a class="a-footer" href="">Reportar Bug</a> | <a  class="a-footer" href="">Términos</a> </p>
+    <p class="textofooter">  www.levelup.com y el logotipo de LEVELUP son marcas registradas. Derechos Reservados © Buscatodo.com S de R.L de C.V.</p>
+
+    </div>
+  </footer>
+
+
+  <script type="text/javascript" src="js/mijs.js"> </script>
+</body>
+
+</html>
